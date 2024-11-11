@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/thkl/homebridge-homematic.git"
+    "url": "git://github.com/bprskalo/homebridge-homematic.git"
   },
   "engines": {
     "node": ">=4.5.0",
@@ -83,10 +83,10 @@
   },
   "release-it": {
     "hooks": {
-      "before:release": "npx auto-changelog --commit-limit false https://raw.githubusercontent.com/thkl/homebridge-homematic/master/changelog-template.hbs"
+      "before:release": "npx auto-changelog --commit-limit false https://raw.githubusercontent.com/bprskalo/homebridge-homematic/master/changelog-template.hbs"
     },
     "git": {
-      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/thkl/homebridge-homematic/master/changelog-template.hbs"
+      "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/bprskalo/homebridge-homematic/master/changelog-template.hbs"
     },
     "npm": {
       "publish": true
