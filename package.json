@@ -1,6 +1,6 @@
 {
   "name": "homebridge-homematic",
-  "version": "0.2.226",
+  "version": "0.3.000",
   "description": "Homematic plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
@@ -11,8 +11,8 @@
     "url": "git://github.com/bprskalo/homebridge-homematic.git"
   },
   "engines": {
-    "node": ">=4.5.0",
-    "homebridge": ">=0.2.0"
+    "node": "^18.20.4 || ^20.15.1",
+    "homebridge": "^1.6.0 || ^2.0.0-beta.0"
   },
   "dependencies": {
     "binrpc": "latest",
